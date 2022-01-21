@@ -1,0 +1,46 @@
+.container{
+    max-width: 1400px;
+    margin: auto;
+    padding: 0 30px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.padding{
+    padding: 40px 0;
+}
+.btn{
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    display: inline-block;
+    color: #fff;
+    border-radius: 5px;
+}
+.btn:hover{
+    background: linear-gradient(45deg, tomato, lightsalmon);
+}
+.card{
+    box-shadow: 10px 10px 30px rgb(190, 187, 187);
+    padding: 20px;
+    margin: 10px;
+}
+#full_stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby_stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
